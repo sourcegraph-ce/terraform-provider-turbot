@@ -10,7 +10,7 @@ import (
 	"github.com/mitchellh/go-homedir"
 	"github.com/terraform-providers/terraform-provider-turbot/helpers"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/url"
 	"os"
 	"path"

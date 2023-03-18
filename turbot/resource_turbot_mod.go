@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/terraform/helper/resource"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/terraform-providers/terraform-provider-turbot/apiClient"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 	"time"
 )
