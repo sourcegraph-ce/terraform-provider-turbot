@@ -5,7 +5,7 @@ import (
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/terraform"
 	"github.com/terraform-providers/terraform-provider-turbot/apiClient"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func Provider() terraform.ResourceProvider {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/mitchellh/mapstructure"
 	"github.com/terraform-providers/terraform-provider-turbot/helpers"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func (client *Client) CreateResource(input map[string]interface{}) (*TurbotResourceMetadata, error) {

@@ -3,7 +3,7 @@ package helpers
 import (
 	"encoding/json"
 	"github.com/stretchr/testify/assert"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"testing"
 )
 
